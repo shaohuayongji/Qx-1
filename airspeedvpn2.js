@@ -13,6 +13,6 @@ obj.email = "nobody@qq.com";
 obj.token =  "1e132dc23df9d4e3a75df4066313a7b2";
  obj.publickey = "307b87e5e2deb035";
 
-body = JSON.stringify(obj); 
+mbody = JSON.stringify(obj); 
 
 $done({status: modifiedStatus, headers : modifiedHeaders, body:mbody});
