@@ -1,7 +1,5 @@
 var body = $response.body; 
 var obj = JSON.parse(body);
-
-$response.statusCode = 200;
 obj.userid = "5e8b22ad80ac550b214fb9d3";
 obj.expire = 9999999999999;
 obj.username = "Fly";
