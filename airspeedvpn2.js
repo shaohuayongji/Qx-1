@@ -1,2 +1,1 @@
-
-$done(statusCode:200);
+$done({statusCode: 200, headers : $response.headers});
