@@ -4,6 +4,8 @@ var modifiedStatus = 'HTTP/1.1 200 OK';
 var mbody = $response.body; 
 var obj = JSON.parse(body);
 
+$response.statusCode = 200;
+
 obj.userid = "5e8b22ad80ac550b214fb9d3";
 obj.expire = 9999999999999;
 obj.username = "Fly";
@@ -15,4 +17,4 @@ obj.token =  "1e132dc23df9d4e3a75df4066313a7b2";
 
 mbody = JSON.stringify(obj); 
 
-$done({status: modifiedStatus, headers : modifiedHeaders, body:mbody});
+$done( mbody);
