@@ -9,9 +9,12 @@ hostname = bookapi.ihuman.com
 */
 
 
-
 var modifiedBody = $response.body; 
+var obj = JSON.parse(modifiedBody);
 
-modifiedBody = modifiedBody.replace(/is_vip\":1/g, 'is_vip":0');
+obj.result.books.forEach(function (item, idnex, array) {
+    item.is_vip=0;
+})
 
+modifiedBody = JSON.stringify(obj); 
 $done(modifiedBody);
