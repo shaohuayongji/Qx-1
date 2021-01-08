@@ -13,7 +13,7 @@ var modifiedBody = $response.body;
 var obj = JSON.parse(modifiedBody);
 
 obj.result.books.forEach(function (item, idnex, array) {
-    item.is_vip=0;
+    item.is_vip = 0;
 })
 
 modifiedBody = JSON.stringify(obj); 
