@@ -12,6 +12,6 @@ hostname = bookapi.ihuman.com
 
 var modifiedBody = $response.body; 
 
-modifiedBody.replace(/is_vip\":1/g, 'is_vip":0');
+modifiedBody.replace(/is_vip\"\s*:\s*\d/g, 'is_vip":0');
 
 $done({modifiedBody});
