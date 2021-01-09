@@ -1,3 +1,10 @@
+/*
+#口袋故事
+^https:\/\/api\.idaddy\.cn\/api\.php\/\?method=audio\.getAudioInfo url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/kdgs.js
+
+hostname = api.idaddy.cn, 47.102.23.164
+*/
+
 var modifiedBody = $response.body; 
 var obj = JSON.parse(modifiedBody);
 
