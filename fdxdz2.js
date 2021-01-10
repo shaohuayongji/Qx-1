@@ -9,6 +9,6 @@
 
 var modifiedBody = $response.body; 
 
-modifiedBody = modifiedBody.replace(/canPlay":\w+/g, 'canPlay":true').replace(/canDownload":\w+/g, 'canDownload":true').replace(/unlocks":\d/g, 'unlocks":1'). replace(/isPreview":\w+/g, 'isPreview":false') .replace(/vip":\w+/g, 'vip":true') .replace(/vipExpireDate":".*?"/g, 'vipExpireDate":"2030-11-11"');
+modifiedBody = modifiedBody.replace(/canPlay":\w+/g, 'canPlay":true').replace(/canDownload":\w+/g, 'canDownload":true').replace(/unlocks":\d+/g, 'unlocks":1'). replace(/isPreview":\w+/g, 'isPreview":false') .replace(/vip":\w+/g, 'vip":true') .replace(/vipExpireDate":".*?"/g, 'vipExpireDate":"2030-11-11"');
 
 $done(modifiedBody);
