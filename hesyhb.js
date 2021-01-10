@@ -20,6 +20,6 @@ $done(modifiedBody);
 
 var modifiedBody = $response.body; 
 
-modifiedBody = modifiedBody.replace(/is_vip":\d/g,'is_vip":0);
+modifiedBody = modifiedBody.replace(/is_vip":\d/g,'is_vip":0');
 
 $done(modifiedBody);
