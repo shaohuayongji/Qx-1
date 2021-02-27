@@ -13,6 +13,7 @@ var modifiedBody = $response.body;
 var obj = JSON.parse(modifiedBody);
 
 obj.show_ads = false;
+obj.premium_calling = true;
 
 modifiedBody = JSON.stringify(obj); 
 $done(modifiedBody);
