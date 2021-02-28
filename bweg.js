@@ -11,9 +11,9 @@ hostname = iface.beva.com
 var modifiedBody = $response.body; 
 var obj = JSON.parse(modifiedBody);
 
-obj.data.is_vip = 2;
+obj.data.is_vip = "2";
 obj.data.end_time_fmt = "1890754389";
-obj.data.is_annual = 2;
+obj.data.is_annual = "2";
 
 modifiedBody = JSON.stringify(obj); 
 $done(modifiedBody);
