@@ -1,17 +1,5 @@
 /*
-贝瓦儿歌永久VIP by JungegeCN
-
-电报频道：https://t.me/ThorHCC
-电报群组：https://t.me/f4thorHCC
-QQ资源群：189519867
-QQ吹牛群：316864309
-
-资源发布：https://t.cn/A6ARmXZ0
-
-
-圈X
-#远程挂载
-http:\/\/passport\.beva\.com\/passport\/v1\/sdk\/getuserinfo url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/bweg.js
+http:\/\/iface\.beva\.com\/order\/device\/vip url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/bweg.js
 
 
 [MITM]
@@ -26,8 +14,9 @@ var obj = JSON.parse(body);
 const vip = '/passport/v1/sdk/getuserinfo';
 
 if (url.indexOf(vip) != -1) {
-	obj.data.userinfo.vip_info ["is_vip"] = "2";
-     obj.data.userinfo.vip_info ["end_time_fmt"] = "2212-12-12";
+	obj.data["is_vip"] = "2";
+	obj.data.["end_time_fmt"] = "1890754389";
+	obj.data.["is_annual"] = "2";
 	body = JSON.stringify(obj);
  }
 $done({body});
