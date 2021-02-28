@@ -1,9 +1,9 @@
 /*
-http:\/\/iface\.beva\.com\/order\/device\/vip url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/bweg.js
+https:\/\/iface\.beva\.com\/order\/device\/vip url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/bweg.js
 
 
 [MITM]
-hostname = passport.beva.com
+hostname = iface.beva.com
 
 */
 
@@ -11,7 +11,7 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '/passport/v1/sdk/getuserinfo';
+const vip = '/order/device/vip';
 
 if (url.indexOf(vip) != -1) {
 	obj.data["is_vip"] = "2";
