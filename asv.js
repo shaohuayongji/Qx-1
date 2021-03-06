@@ -1,5 +1,5 @@
 /*
-airspeedvpn
+a i r s p e e d v p n
 
 [rewrite_local]
 ^https:\/\/api\.express-api\.com\/v1\/(device|connect) url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/asv.js
