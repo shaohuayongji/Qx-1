@@ -1,5 +1,5 @@
 /*
-伴鱼绘本 每日读
+ban yu hui ben. mei ri du
 ^https:\/\/.+\.ipalfish\.com\/pfapi\/ugc\/picturebook\/(perusal\/entry|perusal\/level\/list|user\/learn\/get|profile\/get|detail) url script-response-body byhb.js
 
 
