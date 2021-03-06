@@ -1,6 +1,6 @@
 /*
 [rewrite_local]
-#西窗烛 （by黑黑酱）
+xi chuang zhu
 ^https:\/\/avoscloud\.com\/1\.1\/users\/ url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/xcz.js
 
 [MITM]
