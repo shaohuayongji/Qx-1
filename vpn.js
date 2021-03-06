@@ -1,5 +1,5 @@
 /*
-vpn一键连
+v p n. yi jian lian
 
 https:\/\/api\.1jainlian\.xyz:21987\/api\/app\/auth\/user\/profile url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/vpn.js
 
