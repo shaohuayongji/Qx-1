@@ -1,5 +1,5 @@
 /*
-兔小贝拼音
+tu xiao bei pin yin
 
 https:\/\/(\.+)-api\.tuxiaobei\.com\/v1\/user\/ url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/txbpy.js
 *-api.tuxiaobei.com
