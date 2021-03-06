@@ -1,10 +1,7 @@
 /*
-#Plane vpn
-(请在外区下载打开并点恢复购买，运行一次就够运行完请禁用)
-#捷径指令大全 by:Luke
+P l a n e v p n
 
 [rewrite_local]
-#Plane vpn 公众号：捷径指令大全 by:Luke
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/pv.js
 
 [mitm]
