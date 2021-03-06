@@ -1,5 +1,5 @@
 /*
-阿布睡前故事
+a bu shui qian gu shi
 
 ^http:\/\/tutugushiapi\.tutuerge\.com\/default\.aspx url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/absqgs.js
 
