@@ -1,5 +1,5 @@
 /*
-伴鱼绘本 讲故事
+ban yu hui ben. jiang gu shi
 
 ^https:\/\/.+\.ipalfish\.com\/pfapi\/ugc\/picturebook\/product\/productid\/page\/list url script-response-body byhb_story.js
 
