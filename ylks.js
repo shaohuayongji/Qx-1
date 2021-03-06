@@ -1,5 +1,5 @@
 /*
-咿啦看书
+yi la kan shu
 ^https:\/\/bookapi\.ellabook\.cn\/rest\/api\/service url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/ylks.js
 
 bookapi.ellabook.cn
