@@ -1,4 +1,5 @@
-/*儿歌点点 A+
+/*
+er ge dian dian
 http:\/\/gateway.ergedd.com\/dduser\/user\/center\/set url script-response-body https://raw.githubusercontent.com/puss3888/Qx/main/egdd.js
 */
 
