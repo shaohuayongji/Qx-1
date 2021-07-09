@@ -12,6 +12,7 @@ api.1jainlian.xyz
 var modifiedBody = $response.body; 
 var obj = JSON.parse(modifiedBody);
 
+obj.data.expired = false;
 obj.data.packagesBalance.usedDataTraffic = 0;
 obj.data.packagesBalance.totalDataTraffic = 999999;
 
